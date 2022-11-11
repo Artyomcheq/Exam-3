@@ -1,0 +1,171 @@
+@import url("./fonts.css");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+button {
+    border: none;
+    background: none;
+}
+
+body {
+    font-family: "Libre Franklin", Arial, Helvetica, sans-serif;
+}
+
+.container {
+    width: 1200px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.justify-beetwen {
+    justify-content: space-between;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.grid {
+    grid-template-columns: repeat(1, 1fr);
+}
+
+.grid__col-6 {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.grid__col-4 {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.grid__col-2 {
+    grid-template-columns: repeat(4, 1fr);
+}
+/* BASE CONFIG */
+
+/* HEADER SECTION */
+.header {
+    height: 70px;
+    padding: 37px 0 60px;
+    background-color:  #FFFFFF;
+}
+
+.header__svg-adapt {
+    display: none;
+}
+
+.header__link {
+    margin: 0 40px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #000000;
+}
+/* HEADER SECTION */
+
+/* HERO SECTION */
+.hero {
+    padding: 60px 0;
+    background: #E5E5E5;
+}
+
+.grid__card {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 51px;
+}
+
+.grid__card-img {
+    width: 724px;
+    height: 474px;
+}
+
+.grid__card-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.card__title {
+    font-weight: 400;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.card__subtitle {
+    padding: 27px 0 28px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #666666;
+}
+
+.card__suptitle {
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #000000;
+}
+/* HERO SECTION */
+
+/* SECTION ILLUSTRATION */
+
+.card__illust {
+    background: #E5E5E5;
+}
+
+.grid__illust {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 20px;
+    row-gap: 50px;
+}
+
+.illust__img {
+    padding: 0 0 54px;
+}
+
+.card__supinfo {
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #999999;
+}
+
+.illust__desc {
+    padding: 18px 0 15px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.card__name {
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #000000;
+}
